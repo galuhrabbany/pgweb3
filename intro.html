@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript</title>
+</head>
+<body>
+    <script>
+        var a = 41;
+        var b = 20;
+        var c = a+b;
+        var c = a-b;
+        var c = a/b;
+        var c = a*b;
+        var c = a%b;
+        var c = a^b;
+
+        //data type array
+        var karakter = ['upin', 'ipin', 'apin']
+
+        //data type object
+        var identitas = {
+            nama:'galy',
+            umur: 19,
+            alamat: 'jakarta barat'
+        };
+
+        var DataIdentitas = "nama saya " + identitas.nama + ", saya berumur " + identitas.umur + " tahun.";
+
+        //function
+        function  bahaya(){
+            alert("Awas Ada Sule!");
+        }
+
+        //console.log(DataIdentitas);
+        //bahaya();
+
+        //function call
+        //profil("Galuh", 19);
+
+        //conditional
+        var nilai = 74;
+        if (nilai>=80) {
+            alert("Selamat nilai anda A! Top mantap is the best");
+            //nilai 75-79
+        } else if (nilai >= 75 && nilai <=79){
+            alert("Nilai anda B!");
+        } else if (nilai >= 68 && nilai <= 74){
+            alert("Nilai anda C :(")
+        } else{
+            alert("ANDA TIDAK LULUS!")
+        }
+
+    </script>
+</body>
+</html>
